@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "sass": "^1.71.0"
+  },
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "natour landing page",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "live-server"
+  },
+  "keywords": [
+    "scss",
+    "natours"
+  ],
+  "author": "Djallel Brahmia",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
